@@ -226,6 +226,10 @@ button:hover{
     transition: all 0.5s;
 }
 
+i{
+    margin-left: 5px;
+}
+
 /* ruedita */
 
 .loading {
