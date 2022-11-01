@@ -79,6 +79,8 @@ footer a{
     text-decoration: none;
     color: var(--color2);
     font-size: var(--fs-small0);
+    width: 100%;
+    text-align: center;
 }
 
 footer a:hover{
