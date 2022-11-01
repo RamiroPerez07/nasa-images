@@ -64,7 +64,7 @@ function showSuccess(){
 }
 
 function setDate(value=new Date()){
-    dateInput.value = value;
+    dateInput.value = `${value.getFullYear()}-${(value.getMonth()+1).toString().padStart(2,0)}-${value.getDate().toString().padStart(2,0)}`;
 }
 
 function showLoadAnimation(){
