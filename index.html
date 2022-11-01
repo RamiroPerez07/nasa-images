@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA APP</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Custom Style-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="loading" id="loading-spinner">
+        <div class="spin"></div>
+    </div>
+    <header>
+        <h1>NASA Images</h1>
+        <p class="description">Consult the astronomical image of the day</p>
+    </header>
+    <main>
+        <form action="" id="form">
+            <div class="form-field">
+                <div class="search-container">
+                    <input type="date" name="date" id="date">
+                    <button>🔍</button>
+                </div>
+                <small id="message"></small>
+            </div>
+        </form>
+        <div id="container"></div>
+    </main>
+    <footer>
+        <a target="_blank" href="https://github.com/RamiroPerez07">Ramiro Perez <i class="fa-brands fa-github"></i></a>
+    </footer>
+    <!--Custom JS-->
+    <script src="./index.js"></script>
+</body>
+</html>
